@@ -1,1 +1,0 @@
-var keyboardPage = angular.module('app.keyboard', []);

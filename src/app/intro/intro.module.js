@@ -1,1 +1,0 @@
-var introPage = angular.module('app.intro', []);

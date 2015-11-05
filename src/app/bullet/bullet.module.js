@@ -1,1 +1,0 @@
-var bulletPage = angular.module('app.bullet', ['uuid']);
