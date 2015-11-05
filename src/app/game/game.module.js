@@ -1,0 +1,1 @@
+var gamePage = angular.module('app.game', ['app.keyboard']);

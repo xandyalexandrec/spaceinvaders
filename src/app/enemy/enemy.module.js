@@ -1,0 +1,1 @@
+var enemyPage = angular.module('app.enemy', ['app.grid']);

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-ng-app="app">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5">
+    <title>Space Invaders</title>
+    <!-- styles -->
+    <!-- build:css assets/css/min.css -->
+    <link rel="stylesheet" href="assets/css/yggdrasil.css">
+    <!-- endbuild -->
+</head>
+
+<body>
+    <main ui-view></main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+    <!--scripts -->
+    <!-- build:js lib.js -->
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="components/uuid-factory.js"></script>
+    <!-- endbuild -->
+    <!-- build:js applib.js -->
+    <script src="app/app.module.js"></script>
+    <script src="app/core/core.module.js"></script>
+    <script src="app/core/core.constant.js"></script>
+    <script src="app/core/config.route.js"></script>
+    <script src="app/intro/intro.module.js"></script>
+    <script src="app/intro/config.route.js"></script>
+    <script src="app/game/game.module.js"></script>
+    <script src="app/game/config.route.js"></script>
+    <script src="app/game/game.service.js"></script>
+    <script src="app/game/game.js"></script>
+    <script src="app/grid/grid.module.js"></script>
+    <script src="app/grid/grid.service.js"></script>
+    <script src="app/enemy/enemy.module.js"></script>
+    <script src="app/enemy/enemy.service.js"></script>
+    <script src="app/player/player.module.js"></script>
+    <script src="app/player/player.service.js"></script>
+    <script src="app/bullet/bullet.module.js"></script>
+    <script src="app/bullet/bullet.service.js"></script>
+    <script src="app/keyboard/keyboard.module.js"></script>
+    <script src="app/keyboard/keyboard.service.js"></script>
+    <script src="app/score/score.module.js"></script>
+    <script src="app/score/score.service.js"></script>
+    <!-- endbuild -->
+    <script src="templates.js"></script>
+</body>
+
+</html>

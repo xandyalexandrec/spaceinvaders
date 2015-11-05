@@ -1,0 +1,1 @@
+var scorePage = angular.module('app.score', []);

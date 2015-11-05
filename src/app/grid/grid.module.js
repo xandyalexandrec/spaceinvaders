@@ -1,0 +1,1 @@
+var gridPage = angular.module('app.grid', []);

@@ -1,0 +1,1 @@
+var playerPage = angular.module('app.player', []);
