@@ -11,7 +11,36 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'test/unit/**/*.js'
+        'src/bower_components/angular/angular.js',
+        'src/bower_components/angular-mocks/angular-mocks.js',
+        'src/bower_components/angular-cookies/angular-cookies.js',
+        'src/bower_components/angular-animate/angular-animate.js',
+        'src/bower_components/angular-ui-router/release/angular-ui-router.js',
+        'src/components/uuid-factory.js',
+        'src/templates.js',
+        'src/app/app.module.js',
+        'src/app/core/core.module.js',
+        'src/app/core/core.constant.js',
+        'src/app/core/config.route.js',
+        'src/app/intro/intro.module.js',
+        'src/app/intro/config.route.js',
+        'src/app/game/game.module.js',
+        'src/app/game/config.route.js',
+        'src/app/game/game.service.js',
+        'src/app/game/game.js',
+        'src/app/grid/grid.module.js',
+        'src/app/grid/grid.service.js',
+        'src/app/enemy/enemy.module.js',
+        'src/app/enemy/enemy.service.js',
+        'src/app/player/player.module.js',
+        'src/app/player/player.service.js',
+        'src/app/bullet/bullet.module.js',
+        'src/app/bullet/bullet.service.js',
+        'src/app/keyboard/keyboard.module.js',
+        'src/app/keyboard/keyboard.service.js',
+        'src/app/score/score.module.js',
+        'src/app/score/score.service.js',
+        'test/unit/**/*.js'
     ],
 
     // list of files / patterns to exclude
