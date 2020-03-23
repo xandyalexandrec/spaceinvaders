@@ -1,7 +1,7 @@
 # spaceinvaders
 SpaceInvaders using AngularJS
 
-See the demo at [http://xandyalexandrec.github.io/spaceinvaders/](http://xandyalexandrec.github.io/spaceinvaders/).
+See the demo at [https://spaceinvadersangular.netlify.com](https://spaceinvadersangular.netlify.com).
 
 To build the game locally, clone the source and run:
 ```
